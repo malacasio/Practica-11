@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    .contenedor{
+        margin-left: 20%;
+    }
+
+    .iconos{
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    }
+    
+   td {
+       margin-left: 10%;
+       width: 400px;
+       color: rgb(155, 155, 155);
+       font-size: 70%;
+       font-family: Verdana;
+   }
+
+   .campos{
+       border: 1px solid rgb(199, 199, 199);
+       width: 350px;
+       height: 40px;   
+
+   }
+   .CampoObligatorio{
+    color: rgb(155, 155, 155);
+       font-size: 70%;
+       font-family: Verdana;
+   }
+   .condiciones{
+    font-size: 70%;
+       font-family: Verdana;
+       color: rgb(155, 155, 155);
+   }
+
+   .contCondi{
+    border: solid rgb(155, 155, 155) 1px;
+    width: 1080px;
+    padding-left: 10px;
+   }
+   .gris{
+       color: rgb(155, 155, 155);
+   }
+   .naranja{
+       color: rgb(255, 115, 0);
+   }
+   .punteado {
+    color: rgb(99, 99, 99);
+    border-bottom: 2px dotted rgb(255, 115, 0);
+    width: 80px;
+   }
+   .contenerdorContinuar{
+    width: 1080px;
+   }
+   hr{
+    margin-right: 430px;
+    color: rgb(235, 203, 203);
+   
+    
+   }
+   .pConti{
+       margin-left: 600px;
+       color: rgb(119, 119, 119);
+       font-size: 80%
+   }
+   .botonConti{
+        font-size:14px;
+        font-family:Verdana,Helvetica;
+        font-weight:bold;
+        color:white;
+        background:#ffb977;
+        border:0px;
+        width:110px;
+        height:40px;
+        margin-left: 950px;
+    }   
+    .inicio{
+            font-size:20px;
+        font-family:Verdana,Helvetica;
+        font-weight:bold;
+        color:rgb(207, 207, 207);
+        background:#a0296a;
+        border:0px;
+        width:150px;
+        height:60px;
+        text-align: center;
+    </style>
+</head>
+
+
+
+
+
+
+<body>
+        <table>
+                <tr> <form name="BotInicio" action="index.html">
+                        <input type="submit" value="Inicio" class="inicio">
+                    </form>
+                </tr>
+            </table>
+    <div class="contenedor">
+        <div>
+            <img src="1.PNG">
+        </div>
+    
+        <div>
+             <div class="iconos">
+                 <img src="2.PNG">
+             </div>
+    <!---- -__________TABLAS FORMULARIO__________- -->
+        
+           <table>
+               <tr>   
+                    <td>E-MAIL<a class="naranja">*</a><br>
+                        <form> <input type="text" class="campos"> </form>
+                    </td> 
+
+
+                    <td>DNI o Tarjeta de residencia<a class="naranja">*</a><br>      
+                        <form> <input type="text" class="campos"> </form>
+                    </td>
+
+                    <td>Fecha nacimiento<a class="naranja">*</a><br>      
+                        <form> <input type="date" class="campos"> </form>
+                    </td>
+                </tr>
+           </table>
+
+    <!---- -__________FIN TABLAS FORMULARIO__________- -->
+
+            <p class="CampoObligatorio">* Campo obligatorio</p> <br><br>
+
+         <div class="contCondi"><p class="condiciones"> <p class="naranja">Información básica sobre protección de datos de ING BANK NV, Sucursal en España.</p><br><br>
+
+                <a class="naranja">¿Quién es el Responsable del tratamiento de sus datos personales?</a> <a class="gris"> ING BANK NV, Sucursal en España (ING) con domicilio en C/ Severo Ochoa 2, 28232 Las Rozas <br>
+                (Madrid). Disponemos de un Delegado de Protección de Datos cuya dirección es </a><a class="punteado">dpo@ing.es</a>.<br><br>
+                    
+                
+                <a class="naranja">¿Cómo obtenemos sus datos personales?</a> <a class="gris">Los habrá facilitado usted o habremos accedido a ellos a raíz de sus consultas, solicitudes o contrataciones de</a> </p></div>  
+        
+        </div>
+        <div class="contenedorContinuar"><br>
+        <p class="pConti">Al pulsar "Continuar declara haber leido y aceptado la información sobre protección de Datos.</p>
+        <br><hr>
+        <table>
+                <tr> <form name="BotonConti">
+                        <input type="submit" value="Continuar" class="botonConti">
+                    </form>
+                </tr>
+            </table>
+        </div>  
+    </div>
+</body>
+</html>
